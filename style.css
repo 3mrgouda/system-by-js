@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 4px;
+    margin: 4px 0;
+    border-radius: 4px;
+    background-color: #111;
+    color: #fff;
+
+    &:focus {
+        background-color: #000;
+        transform: scale(1.1);
+    }
+}
+
+button {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #390053;
+    transition: .5s;
+    margin: 10px 0;
+
+    &:hover {
+        letter-spacing: 1px;
+        background-color: #51025f;
+    }
+}
+
+.crud {
+    width: 80%;
+    margin: auto;
+
+    .head {
+        margin: 10px 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .inputs {
+
+        .price {
+
+            input {
+                width: 20%;
+            }
+
+            #total {
+                background-color: #a00d02;
+                padding: 4px;
+                border-radius: 4px;
+
+                &:before {
+                    content: 'Total: ';
+                }
+            }
+        }
+
+
+    }
+    .outputs{
+     .btnSearch{
+        display: flex;
+        justify-content: space-between;
+        button{
+            width:45%;
+        }
+    }  
+    table{
+        width: 100%;
+        text-align: center;
+        tr{
+            margin: 10px 0;
+        }
+        th,td{
+            padding:5px;
+        }
+    } 
+    }
+    
+}
